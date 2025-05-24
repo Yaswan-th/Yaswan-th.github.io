@@ -1,433 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Expert Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vajja Yashwanth Pavan Kumar | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <div id="particles-js"></div>
-    <div class="grid-container">
-        <header>
-            <div class="logo">
-                <div class="terminal">
-                    <div class="terminal-header">
-                        <div class="terminal-buttons">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div class="terminal-title">cybersec_profile.sh</div>
-                    </div>
-                    <div class="terminal-body">
-                        <div class="prompt">
-                            <span class="prompt-sign">$</span>
-                            <span class="command" id="command"></span>
-                            <span class="cursor"></span>
-                        </div>
-                    </div>
-                </div>
+  <div id="particles-js"></div>
+  <div class="grid-container">
+    <header>
+      <div class="logo">
+        <div class="terminal">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span></span><span></span><span></span>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+            <div class="terminal-title">vkp_cybersec.sh</div>
+          </div>
+          <div class="terminal-body">
+            <div class="prompt">
+              <span class="prompt-sign">$</span>
+              <span class="command">whoami</span>
+              <span class="cursor">_</span>
             </div>
-        </header>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <main>
-            <section id="hero">
-                <div class="hero-content">
-                    <div class="profile-container">
-                        <div class="profile-img-container">
-                            <img src="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Profile Image" class="profile-img">
-                            <div class="scanning-line"></div>
-                        </div>
-                    </div>
-                    <div class="hero-text">
-                        <h1 class="glitch" data-text="JOHN DOE">JOHN DOE</h1>
-                        <div class="typed-container">
-                            <span class="typed-prefix">// </span>
-                            <span id="typed-text"></span>
-                            <span class="typing-cursor">|</span>
-                        </div>
-                        <div class="cta-buttons">
-                            <a href="#contact" class="btn primary-btn">Contact Me</a>
-                            <a href="#projects" class="btn secondary-btn">View Projects</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="scroll-indicator">
-                    <div class="mouse">
-                        <div class="mouse-wheel"></div>
-                    </div>
-                    <p>Scroll Down</p>
-                </div>
-            </section>
-
-            <section id="about" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> About Me <span class="bracket">}</span></h2>
-                </div>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>I'm a dedicated cybersecurity professional with a passion for digital forensics, penetration testing, and security architecture. With over 5 years of experience in identifying vulnerabilities and implementing robust security solutions, I help organizations protect their digital assets and stay ahead of emerging threats.</p>
-                        <p>My approach combines technical expertise with strategic thinking to deliver comprehensive security frameworks that balance protection with operational efficiency.</p>
-                        <div class="key-stats">
-                            <div class="stat">
-                                <span class="stat-number">5+</span>
-                                <span class="stat-label">Years Experience</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">40+</span>
-                                <span class="stat-label">Projects</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">15+</span>
-                                <span class="stat-label">Certifications</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-badges">
-                        <div class="badge">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>Penetration Testing</span>
-                        </div>
-                        <div class="badge">
-                            <i class="fas fa-bug"></i>
-                            <span>Vulnerability Assessment</span>
-                        </div>
-                        <div class="badge">
-                            <i class="fas fa-lock"></i>
-                            <span>Security Architecture</span>
-                        </div>
-                        <div class="badge">
-                            <i class="fas fa-code"></i>
-                            <span>Secure Coding</span>
-                        </div>
-                        <div class="badge">
-                            <i class="fas fa-cloud"></i>
-                            <span>Cloud Security</span>
-                        </div>
-                        <div class="badge">
-                            <i class="fas fa-network-wired"></i>
-                            <span>Network Security</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="skills" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> Technical Skills <span class="bracket">}</span></h2>
-                </div>
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Security Testing</h3>
-                        <div class="skill-item">
-                            <div class="skill-label">Penetration Testing</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Vulnerability Scanning</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Social Engineering</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="85"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Tools & Platforms</h3>
-                        <div class="skill-item">
-                            <div class="skill-label">Metasploit</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Wireshark</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Burp Suite</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="90"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Security Architecture</h3>
-                        <div class="skill-item">
-                            <div class="skill-label">Network Security</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="87"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Cloud Security</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="82"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Endpoint Protection</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="85"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Programming</h3>
-                        <div class="skill-item">
-                            <div class="skill-label">Python</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="89"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">Bash/Shell</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-label">JavaScript</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="78"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="experience" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> Professional Experience <span class="bracket">}</span></h2>
-                </div>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2022 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Senior Security Analyst</h3>
-                            <h4>CyberGuard Solutions</h4>
-                            <ul>
-                                <li>Lead penetration testing initiatives for enterprise clients, identifying and documenting security vulnerabilities</li>
-                                <li>Implement and maintain security monitoring systems to detect and respond to potential threats</li>
-                                <li>Develop and execute security policies and procedures to ensure compliance with industry standards</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2020 - 2022</div>
-                        <div class="timeline-content">
-                            <h3>Cybersecurity Consultant</h3>
-                            <h4>SecureNet Inc.</h4>
-                            <ul>
-                                <li>Conducted security assessments and risk analyses for clients across various industries</li>
-                                <li>Designed and implemented secure network architectures and security controls</li>
-                                <li>Provided expert guidance on security best practices and regulatory compliance</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2018 - 2020</div>
-                        <div class="timeline-content">
-                            <h3>Network Security Engineer</h3>
-                            <h4>TechDefend Corporation</h4>
-                            <ul>
-                                <li>Managed and maintained network security infrastructure, including firewalls, IDS/IPS, and VPNs</li>
-                                <li>Conducted vulnerability assessments and implemented remediation measures</li>
-                                <li>Collaborated with IT teams to integrate security controls into network architecture</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="projects" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> Key Projects <span class="bracket">}</span></h2>
-                </div>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-shield-virus"></i>
-                        </div>
-                        <h3>Intrusion Detection System</h3>
-                        <p>Developed a custom network-based intrusion detection system using machine learning algorithms to identify and alert on potential security threats.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>TensorFlow</span>
-                            <span>Network Security</span>
-                        </div>
-                        <a href="#" class="btn project-btn">View Details</a>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-bug"></i>
-                        </div>
-                        <h3>Vulnerability Scanner</h3>
-                        <p>Created an automated vulnerability assessment tool that identifies security weaknesses in web applications and generates detailed remediation reports.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>OWASP</span>
-                            <span>Web Security</span>
-                        </div>
-                        <a href="#" class="btn project-btn">View Details</a>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-cloud-upload-alt"></i>
-                        </div>
-                        <h3>Cloud Security Framework</h3>
-                        <p>Designed and implemented a comprehensive security framework for AWS cloud environments, ensuring compliance with industry standards.</p>
-                        <div class="project-tech">
-                            <span>AWS</span>
-                            <span>CloudFormation</span>
-                            <span>IAM</span>
-                        </div>
-                        <a href="#" class="btn project-btn">View Details</a>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <h3>Secure Authentication System</h3>
-                        <p>Developed a multi-factor authentication system with biometric verification for high-security enterprise applications.</p>
-                        <div class="project-tech">
-                            <span>Java</span>
-                            <span>OAuth 2.0</span>
-                            <span>Biometrics</span>
-                        </div>
-                        <a href="#" class="btn project-btn">View Details</a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="certifications" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> Certifications <span class="bracket">}</span></h2>
-                </div>
-                <div class="certifications-container">
-                    <div class="certification">
-                        <div class="certification-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="certification-info">
-                            <h3>Certified Ethical Hacker (CEH)</h3>
-                            <p>EC-Council</p>
-                        </div>
-                    </div>
-                    <div class="certification">
-                        <div class="certification-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="certification-info">
-                            <h3>Certified Information Systems Security Professional (CISSP)</h3>
-                            <p>(ISC)²</p>
-                        </div>
-                    </div>
-                    <div class="certification">
-                        <div class="certification-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="certification-info">
-                            <h3>Offensive Security Certified Professional (OSCP)</h3>
-                            <p>Offensive Security</p>
-                        </div>
-                    </div>
-                    <div class="certification">
-                        <div class="certification-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="certification-info">
-                            <h3>CompTIA Security+</h3>
-                            <p>CompTIA</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="contact" class="section">
-                <div class="section-header">
-                    <h2><span class="bracket">{</span> Contact Me <span class="bracket">}</span></h2>
-                </div>
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <p>contact@johndoe.com</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <p>+1 (555) 123-4567</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>San Francisco, CA</p>
-                        </div>
-                        <div class="social-links">
-                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Enter your message"></textarea>
-                        </div>
-                        <button type="submit" class="btn primary-btn">Send Message</button>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2025 John Doe | Cybersecurity Professional</p>
-                <p class="footer-tagline">Securing the digital frontier, one vulnerability at a time.</p>
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <div class="profile-img-container">
+            <img src="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg" alt="Profile Image" class="profile-img"/>
+            <div class="scanning-line"></div>
+          </div>
+          <div class="hero-text">
+            <h1 class="glitch" data-text="Vajja Yashwanth Pavan Kumar">Vajja Yashwanth Pavan Kumar</h1>
+            <div class="typed-container">
+              <span class="typed-prefix">// </span>
+              <span id="typed-text">Cybersecurity Enthusiast | Ethical Hacker | Web Developer</span>
+              <span class="typing-cursor">|</span>
             </div>
-        </footer>
-    </div>
+            <div class="cta-buttons">
+              <a href="#contact" class="btn primary-btn">Contact Me</a>
+              <a href="#projects" class="btn secondary-btn">View Projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="script.js"></script>
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2><span class="bracket">{</span> About Me <span class="bracket">}</span></h2>
+        </div>
+        <div class="about-content">
+          <p>I’m currently pursuing a B.Tech in Computer Science Engineering with a specialization in Cyber Security at Parul University. Passionate about ethical hacking, digital forensics, and solving real-world security problems through programming and research.</p>
+          <p>I have hands-on experience building security tools and web applications, and I actively explore vulnerabilities through penetration testing and simulations.</p>
+          <div class="key-stats">
+            <div class="stat"><span class="stat-number">2+</span><span class="stat-label">Years of Learning</span></div>
+            <div class="stat"><span class="stat-number">5+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-number">10+</span><span class="stat-label">Certifications</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-header">
+          <h2><span class="bracket">{</span> Skills <span class="bracket">}</span></h2>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Cybersecurity</h3>
+            <ul>
+              <li>Ethical Hacking</li>
+              <li>SQL Injection</li>
+              <li>Digital Forensics</li>
+              <li>Network Security</li>
+              <li>Penetration Testing</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Programming</h3>
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML, CSS</li>
+              <li>ReactJS, Bootstrap</li>
+              <li>Spring Boot</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>AWS</li>
+              <li>Cybersecurity Simulators</li>
+              <li>Network Defense Tools</li>
+              <li>MongoDB, MySQL</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-header">
+          <h2><span class="bracket">{</span> Projects <span class="bracket">}</span></h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Weather Dashboard</h3>
+            <p>Interactive web app showing real-time weather using APIs.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          </div>
+          <div class="project-card">
+            <h3>JS Game Suite</h3>
+            <p>Includes Tic Tac Toe, Simon, Quiz, and Drumshell — all browser-based games.</p>
+            <p><strong>Tech:</strong> JavaScript, HTML5, CSS3</p>
+          </div>
+          <div class="project-card">
+            <h3>Advanced Calculator</h3>
+            <p>Web calculator with advanced operations and keyboard input support.</p>
+            <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="section-header">
+          <h2><span class="bracket">{</span> Certifications <span class="bracket">}</span></h2>
+        </div>
+        <div class="certifications-container">
+          <ul>
+            <li>Ethical Hacking</li>
+            <li>SQL Injection Attacks</li>
+            <li>Network Defence Essentials (Cisco)</li>
+            <li>Digital Forensics</li>
+            <li>Cybersecurity Simulation</li>
+            <li>Introduction to Dark Web</li>
+            <li>Bug Bounty Hunt Like a Rat</li>
+            <li>Java Programming</li>
+            <li>Building Games with JavaScript</li>
+            <li>AWS Cloud Essentials</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-header">
+          <h2><span class="bracket">{</span> Contact Me <span class="bracket">}</span></h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> yaswanthvajja93@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91-9966990848</p>
+            <p><i class="fas fa-map-marker-alt"></i> Vadodara, Gujarat, India</p>
+            <div class="social-links">
+              <a href="https://linkedin.com/in/yashunani1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name"/>
+            <input type="email" name="email" placeholder="Your Email"/>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Vajja Yashwanth Pavan Kumar | Cybersecurity Portfolio</p>
+        <p class="footer-tagline">Securing systems, defending data, mastering cyber threats.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
